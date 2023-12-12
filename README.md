@@ -13,6 +13,14 @@
 /_/ /_/ /_/\___/\__/_/ /_/\____/\__,_/_/ /___/\___/_/
 
 ```
+## How to start?
+1. Start your terminal
+2. You need to have python installed (Mac comes with python3)
+3. Create a virtual environment to install all dependencies (you can skip this step, but is recommended). I am using venv, there are other options. `python3 -m venv {name_for_env}` e.g. `python3 -m venv methodizer` 
+4. Activate virtual enviroment `source {name_for_env}/bin/activate` e.g. `source methodizer/bin/activate`
+5. Go ahead and install python3 modules `pip install -r requirements.txt`
+6. Run program `python3 main.py`
+7. Read instructions and have fun.
 
 ## Methods
 ### Lists
